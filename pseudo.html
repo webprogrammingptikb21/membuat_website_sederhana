@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pesudo class</title>
+    <style>
+      .link a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .link a:hover {
+        color: red;
+      }
+
+      .link li:nth-child(3) a:hover {
+        color: green;
+      }
+
+      .link li:first-child a:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="hello">Hello World</a>
+    <div class="link">
+      <ul>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a></li>
+        <li><a href="#">link 5</a></li>
+        <li><a href="#">link 6</a></li>
+        <li><a href="#">link 7</a></li>
+        <li><a href="#">link 8</a></li>
+      </ul>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis pariatur sint mollitia. A voluptatibus quas enim tempora saepe dolorum. Alias ab deleniti est quidem, fuga dolore mollitia quisquam recusandae hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officia nam laboriosam minus quasi, molestiae ex magnam expedita, labore non molestias consectetur sed explicabo numquam culpa nemo? Iure, delectus nostrum.</p>
+  </body>
+</html>

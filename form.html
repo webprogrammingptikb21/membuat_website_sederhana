@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>membuat form</title>
+    <style>
+      .btn {
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ini adalah sebuah form -->
+    <div class="form">
+      <form action="">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <input type="radio" id="pria" name="gender" /> <label for="pria">Pria</label> <input type="radio" id="wanita" name="gender" /><label for="wanita">Wanita</label>
+        <br />
+        <input type="checkbox" id="menyanyi" />
+        <label for="menyanyi">Menyanyi</label> <input type="checkbox" id="ngoding" /> <label for="ngoding">ngoding</label>
+        <br />
+        <select name="select" id="select">
+          Asal daerah:
+          <option>Makassar</option>
+          <option>Gowa</option>
+          <option>Takalar</option>
+        </select>
+        <br />
+        <textarea name="textarea" id="textarea"></textarea>
+        <br />
+        <button class="btn">Kirim!</button>
+        <br />
+        <button class="btn1" style="background-color: red">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+header .judul {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 13px;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: orangered;
+}
+
+.hero {
+  background-image: url(./gambar.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 0 -30px;
+}
+
+main {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 600px;
+  float: left;
+}
+
+main h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+main .penulis a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main p {
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 300px;
+  float: left;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  font-size: 15px;
+  color: tomato;
+  margin-bottom: 10px;
+}
+
+.sidebar img {
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  font-size: 12px;
+}
+
+.sidebar span {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.copy {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  zoom: 1;
+}
